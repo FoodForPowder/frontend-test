@@ -1,0 +1,110 @@
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+.content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 30px;
+    gap:5px
+}
+.head{
+    flex: 0 0 auto;
+    
+}
+.head__info{
+    
+}
+.head__img{
+   
+    float: right;
+    width: 150px;
+            height: 150px;
+            border-radius: 50%;
+}
+
+.head__title{
+    
+    font-weight: bolder;
+    font-size: x-large;
+}
+.head__title h1{
+    border-bottom: solid 5px #2596be;
+    width: fit-content;
+}
+.head__subtitle{
+    margin: 15px 0 25px 0 ;
+    font-weight: bold;
+    font-size: large;
+}
+.head__about p{
+    margin-bottom: 10px;
+}
+.head__about :last-child{
+    margin-bottom: 0    ;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.section__aside {
+    background-color: #daeef3;
+    padding:  20px 15px 0px 67px;
+    
+}
+.section__aside h3{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.section__content {
+    padding: 10px 25px;
+}
+.section__title {
+
+    font-size: large;
+    font-weight: bold;
+    color: #2596be;
+}
+.section__date {
+    color: gray;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px 0;
+}
+.section__subtitle {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.list  li{
+    list-style:disc;
+    font-size: medium;
+    font-weight:500;
+    
+}
+.list li::marker{
+    color: #54abbe;
+}
+.section__list{
+    margin-left: 25px;
+}
+.section__text{
+    font-size: medium;
+    font-weight:500;
+}
